@@ -1,11 +1,16 @@
 
-import './App.css'
+import React from "react"
+import Footer from "./components/Footer"
+import HeroSection from "./components/HeroSection"
+import NavBar from "./components/NavBar"
 
 function App() {
 
   return (
     <>
-     <p>hi there divyam</p>
+    <NavBar/>
+    <HeroSection/>
+    <Footer/>
     </>
   )
 }
