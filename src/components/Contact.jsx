@@ -10,7 +10,7 @@ const Contact = () => {
         Feel free to Contact me by submitting the form below and I will get back to you as soon as possible
         </p>
       </div> 
-      <div className=' flex flex-col justify-evenly  md:w-[74vw] h-[100%] px-[1.5rem] shadow-xl mt-4 bg-white rounded-lg'>
+      <div className=' flex flex-col justify-evenly  w-[74vw] h-[100%] px-[1.5rem] shadow-xl mt-4 bg-white rounded-lg'>
         <label htmlFor="name" className='flex flex-col gap-1 '>
           <p className=' capitalize text-md tracking-wider font-semibold text-slate-500 pl-1'>name</p>
         <input type="text" id='name' placeholder='Enter your name' className=' bg-slate-200 capitalize h-12 pl-2 rounded-md'/>
