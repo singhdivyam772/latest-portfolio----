@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 
-
 const HamBurger = () => {
    const [hamburgerState, setHamburgerState] = useState(true);
    const openCloseHamburger = () => {
@@ -28,20 +27,20 @@ const HamBurger = () => {
          )}
       </div>
       <div className= {`${hamburgerState ? 'hidden' : 'flex'} absolute flex-col justify-center items-center w-[47rem] h-[14rem] bg-white top-[3.8rem] bottom-0 left-[-46rem]
-                border-[1px] border-red-900  `}>
-                  <div className='w-full h-[25%] border-[1px] flex justify-end items-center pr-6'>
-                     <p>Home</p>
-                  </div>
-                  <div className='w-full h-[25%] border-[1px] flex justify-end items-center pr-6'>
-                     <p>About</p>
-                  </div>
-                  <div className='w-full h-[25%] border-[1px] flex justify-end items-center pr-6'>
-                     <p>Projects</p>
-                  </div>
-                  <div className='w-full h-[25%] border-[1px] flex justify-end items-center pr-6'>
-                     <p>Contact</p>
-                  </div>
+            border-[1px] border-red-900  `}>
+            <div className='w-full h-[25%] border-[1px] flex justify-end items-center pr-6'>
+               <p>Home</p>
             </div>
+            <div className='w-full h-[25%] border-[1px] flex justify-end items-center pr-6'>
+               <p>About</p>
+            </div>
+            <div className='w-full h-[25%] border-[1px] flex justify-end items-center pr-6'>
+               <p>Projects</p>
+            </div>
+            <div className='w-full h-[25%] border-[1px] flex justify-end items-center pr-6'>
+               <p>Contact</p>
+            </div>
+      </div>
       </div>
      
    )
