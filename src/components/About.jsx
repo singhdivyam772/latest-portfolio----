@@ -63,11 +63,11 @@ const About = () => {
 ]
 
   return (
-    <div className=' flex justify-center items-center flex-col w-[100vw] min-h-[40rem] bg-slate-100 md:mt-0 '>
+    <div className=' flex justify-center items-center flex-col w-[100vw] min-h-[55rem] bg-slate-100 md:mt-0 '>
       <div className=' flex flex-col justify-center items-center gap-2 '>
         <h2 className=' uppercase font-extrabold md:text-4xl text-2xl text-center'>About Me</h2>
         <div className=' h-2 w-16 bg-[#7843E9] rounded-lg'></div>
-        <p className=' md:px-[10rem] px-6 text-center text-slate-500 text-lg'>
+        <p className=' md:px-[16rem] px-6 text-center text-slate-600 font-medium md:text-xl text-lg leading-loose py-7'>
           Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology
         </p>
       </div>     
@@ -75,15 +75,15 @@ const About = () => {
       <div className=' flex md:flex-nowrap flex-wrap justify-between min-h-[30rem] w-[100vw] '>
         
         {/* left */}
-        <div className=' flex flex-col gap-2 md:w-[35rem] md:pl-[5rem] md:px-0 px-[2rem] md:mx-[5rem]'>
-          <h2 className='  text-black text-xl font-bold'>Get To know More!!</h2>
-          <p className=' text-slate-500 text-lg'>
+        <div className=' flex flex-col gap-2 md:w-[35rem] md:pl-[6rem] md:px-0 px-[2rem] md:mx-[5rem]'>
+          <h2 className='  text-black text-xl font-bold leading-10'>Get To know More!!</h2>
+          <p className=' text-slate-500 text-lg leading-8'>
             Hello everyone! I'm Divyam Singh, a passionate fresher in web development. Proficient in JavaScript, HTML, CSS (Tailwind), and modern frontend stack. Ready to dive into exciting projects!
           </p>
-          <p className='  text-slate-500 text-lg'>
+          <p className='  text-slate-500 text-lg leading-8'>
             I'm skilled in JavaScript, proficient in ES6 essentials like arrow functions, destructuring, and promises. Experienced in DOM manipulation for creating dynamic web apps responsive to user interactions.
           </p>
-          <p className='  text-slate-500 text-lg'>
+          <p className='  text-slate-500 text-lg leading-8'>
             Experienced in React, proficient in functional components, state management, and React Hooks for optimized component logic. Familiar with Redux for global state management, ensuring data consistency and simplifying debugging.
           </p>
         </div>
