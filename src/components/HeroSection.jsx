@@ -3,7 +3,7 @@ import '../style/HeroSection.css'
 const HeroSection = () => {
   return (
     <div>
-      <div className=' w-full md:h-[82vh] hero-section flex flex-wrap justify-center items-center'>  
+      <div className=' w-full md:h-[82vh] h-[50vh] hero-section flex flex-wrap justify-center items-center'>  
         {/* intro */}
         <div className=' min-w-[30vw]  flex flex-col justify-center items-center'>
           <h2 className=' uppercase font-extrabold md:text-5xl text-3xl text-center'>
