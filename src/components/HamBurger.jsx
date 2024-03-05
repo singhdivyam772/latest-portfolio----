@@ -1,6 +1,10 @@
 import React, { useState } from 'react'
 
-const HamBurger = () => {
+const HamBurger = (props) => {
+   const scrollToProject = props.scrollToProject
+   const scrollToAbout = props.scrollToAbout
+   const scrollToHome= props.scrollToHome
+   const scrollToContact = props.scrollToContact
    const [hamburgerState, setHamburgerState] = useState(true);
    const openCloseHamburger = () => {
       setHamburgerState(!hamburgerState);
@@ -27,19 +31,27 @@ const HamBurger = () => {
          )}
       </div>
       <div className= {`${hamburgerState ? 'hidden' : 'flex'} absolute flex-col justify-center items-center w-[47rem] h-[14rem] bg-white top-[3.8rem] bottom-0 left-[-46rem]
-            border-[1px] border-red-900  `}>
+            border-[1px] border-slate-500  `}>
             <div className='w-full h-[25%] border-[1px] flex justify-end items-center pr-6'>
-               <p>Home</p>
+               <p onClick={scrollToHome}>Home</p>
             </div>
             <div className='w-full h-[25%] border-[1px] flex justify-end items-center pr-6'>
-               <p>About</p>
+            <p onClick={scrollToAbout}>About</p>
             </div>
             <div className='w-full h-[25%] border-[1px] flex justify-end items-center pr-6'>
-               <p>Projects</p>
+            <p onClick={scrollToProject}>Projects</p>
             </div>
             <div className='w-full h-[25%] border-[1px] flex justify-end items-center pr-6'>
-               <p>Contact</p>
+            <p onClick={scrollToContact}>Contact</p>
             </div>
+            <a
+               href="\src\assets\DivyamResume.pdf"
+               download="DivyamResume.pdf"
+               className='w-full h-[25%] border-[1px] flex justify-end items-center pr-6'
+               >
+               {/* <p>Resume</p>  */}
+               <p>Resume</p>
+            </a>
       </div>
       </div>
      

@@ -1,6 +1,11 @@
 import React from 'react'
 import '../style/HeroSection.css'
-const HeroSection = () => {
+import { Link } from 'react-router-dom'
+import { FaFileDownload } from "react-icons/fa";
+
+
+const HeroSection = (props) => {
+  const scrollToProject = props.scrollToProject
   return (
     <div className=' w-full md:h-[100vh] h-[60rem] hero-section flex flex-wrap justify-center '>  
       
@@ -12,11 +17,22 @@ const HeroSection = () => {
           I'm a Frontend(React) developer and here is my portfolio website. Here you'll learn about myself as a frontend(React) developer.
           </h5>
           <button 
+          onClick={scrollToProject}
           className=' bg-[#7843E9] md:px-16 px-10 py-3 rounded-md uppercase font-bold text-white tracking-wider mt-6'
           >
             Projects
           </button>
         </div>
+
+        <a
+        href="\src\assets\DivyamResume.pdf"
+        download="DivyamResume.pdf"
+        className='  md:flex hidden flex-col  justify-center items-center
+         max-w-[3rem] max-h-[3rem] rounded-full download-resume'
+      >
+       {/* <p>Resume</p>  */}
+        <FaFileDownload className=' text-2xl text-white font-medium'/>
+      </a>
     </div>
   )
 }

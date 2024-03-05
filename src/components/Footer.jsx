@@ -2,6 +2,10 @@ import React from 'react'
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import { BsInstagram } from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
+
+import { Link } from 'react-router-dom';
+
 const Footer = () => {
   return (
     <div className=' flex flex-col justify-evenly items-center w-[100vw] min-h-[52vh] bg-black text-white  '>
@@ -21,10 +25,18 @@ const Footer = () => {
             Social Media
           </h2>
           <ul className='flex mt-2 justify-start gap-10 items-center w-[100%]'>
-            <li className=' uppercase text-3xl hover:bg-slate-400 rounded-md w-auto h-auto p-0 cursor-pointer'><FaLinkedin /></li>
-            <li className=' uppercase text-3xl hover:bg-slate-400 rounded-md w-auto h-auto p-0 cursor-pointer'><FaGithub /></li>
-            <li className=' uppercase text-3xl hover:bg-slate-400 rounded-md w-auto h-auto p-0 cursor-pointer'><BsInstagram /></li>
-            <li className=' uppercase text-3xl hover:bg-slate-400 rounded-md w-auto h-auto p-0 cursor-pointer'><FaLinkedin /></li>
+            <li className=' uppercase text-3xl hover:bg-slate-400 rounded-md w-auto h-auto p-0 cursor-pointer'>
+            <Link to='https://www.linkedin.com/in/divyam72/' target="_blank"><FaLinkedin /></Link>
+            </li>
+            <li className=' uppercase text-3xl hover:bg-slate-400 rounded-md w-auto h-auto p-0 cursor-pointer'>
+            <Link to='https://github.com/singhdivyam772' target='_blank'><FaGithub /></Link>
+              </li>
+            <li className=' uppercase text-3xl hover:bg-slate-400 rounded-md w-auto h-auto p-0 cursor-pointer'>
+            <Link to='https://twitter.com/home?lang=en' target='_blank'><FaXTwitter /></Link>
+            </li>
+            <li className=' uppercase text-3xl hover:bg-slate-400 rounded-md w-auto h-auto p-0 cursor-pointer'>
+              <BsInstagram />
+            </li>
           </ul>
         </div>
       </div>

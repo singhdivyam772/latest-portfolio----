@@ -1,35 +1,11 @@
 import React from 'react';
 import HamBurger from './HamBurger'
 import { Link } from 'react-router-dom';
-const NavBar = () => {
-
-  const scrollToHome = () => {
-    window.scrollTo({
-      top: 0, 
-      behavior: 'smooth'
-    });
-  }
-
-  const scrollToAbout = () => {
-    window.scrollTo({
-      top: 635, 
-      behavior: 'smooth'
-    });
-  }
-
-  const scrollToProject = () => {
-    window.scrollTo({
-      top: 1435, 
-      behavior: 'smooth'
-    });
-  }
-  const scrollToContact = () => {
-    window.scrollTo({
-      top: 3135, 
-      behavior: 'smooth'
-    });
-  }
-  
+const NavBar = ( props ) => {
+  const scrollToProject = props.scrollToProject
+  const scrollToAbout = props.scrollToAbout
+  const scrollToHome= props.scrollToHome
+  const scrollToContact = props.scrollToContact
   return (
     <div className=' relative'>
       <div className=' w-[100vw] h-[15vh]  flex justify-between px-4 fixed top-0 bottom-0 right-0 bg-white items-center'>
@@ -58,7 +34,12 @@ const NavBar = () => {
           onClick={scrollToContact}>Contact</li>
           
         </ul>
-        <HamBurger />
+        <HamBurger 
+        scrollToHome={scrollToHome} 
+        scrollToAbout={scrollToAbout} 
+        scrollToProject={scrollToProject} 
+        scrollToContact={scrollToContact}
+        />
       </div>
     </div>
   )

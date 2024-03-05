@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
@@ -9,13 +9,51 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
 function App() {
+
+  const scrollToHome = () => {
+    window.scrollTo({
+      top: 0, 
+      behavior: 'smooth'
+    });
+  }
+
+  useEffect(()=>{
+    scrollToHome();
+  },[scrollToHome])
+
+
+
+  const scrollToAbout = () => {
+    window.scrollTo({
+      top: 635, 
+      behavior: 'smooth'
+    });
+  }
+
+  const scrollToProject = () => {
+    window.scrollTo({
+      top: 1435, 
+      behavior: 'smooth'
+    });
+  }
+  const scrollToContact = () => {
+    window.scrollTo({
+      top: 3135, 
+      behavior: 'smooth'
+    });
+  }
   return (
    
       <div className="overflow-hidden">
-        <NavBar />
-        <HeroSection/>
+        <NavBar 
+        scrollToHome={scrollToHome} 
+        scrollToAbout={scrollToAbout} 
+        scrollToProject={scrollToProject} 
+        scrollToContact={scrollToContact}
+        />
+        <HeroSection scrollToProject={scrollToProject}/>
         <About/>
-        <Projects/>
+        <Projects />
         <Contact/>
         {/* <Routes>
           <Route path="/home" element={<HeroSection />} />
