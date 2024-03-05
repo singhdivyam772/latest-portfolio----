@@ -28,6 +28,16 @@ const Projects = () => {
       image: `https://ik.imagekit.io/m4aja7hui/DSC/Image/images/icon/Logo_fjopbe.png?updatedAt=1699590305441`,
       siteLink: 'https://www.droneservicecenter.in/'
     },
+    {
+      id: 4,
+      name: 'Digital library',
+      description: `Redesigned and developed Drone Service Center's website UI using React.js and Vanilla CSS. 
+      Implemented responsive design for multi-device compatibility. Refactored with Next.js and Tailwind CSS for 
+      improved performance. Collaborated with design team for mockup translation into visually appealing UI 
+      components. `,
+      image: `https://ik.imagekit.io/x5uuebk4v/Digital-Library/Digital-Library.jpg?updatedAt=1709648650604`,
+      siteLink: 'https://super-lebkuchen-8ea5ac.netlify.app/'
+    },
 ]
   return (
     <div className=' flex justify-center items-center flex-col w-[100vw] min-h-[40rem] bg-slate-100 md:mt-0 py-6'>
