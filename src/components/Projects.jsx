@@ -35,7 +35,7 @@ const Projects = () => {
       Implemented responsive design for multi-device compatibility. Refactored with Next.js and Tailwind CSS for 
       improved performance. Collaborated with design team for mockup translation into visually appealing UI 
       components. `,
-      image: `https://ik.imagekit.io/x5uuebk4v/Digital-Library/Digital-Library.jpg?updatedAt=1709648650604`,
+      image: `https://ik.imagekit.io/x5uuebk4v/Digital-Library/2143985.jpg?updatedAt=1709649193098`,
       siteLink: 'https://super-lebkuchen-8ea5ac.netlify.app/'
     },
 ]
