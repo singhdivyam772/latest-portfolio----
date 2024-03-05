@@ -21,8 +21,6 @@ function App() {
     scrollToHome();
   },[scrollToHome])
 
-
-
   const scrollToAbout = () => {
     window.scrollTo({
       top: 635, 
@@ -55,12 +53,6 @@ function App() {
         <About/>
         <Projects />
         <Contact/>
-        {/* <Routes>
-          <Route path="/home" element={<HeroSection />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/project" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes> */}
         <Footer />
         <SocialMedia />
       </div>
