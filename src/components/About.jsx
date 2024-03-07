@@ -78,13 +78,13 @@ const About = () => {
         <div className=' flex flex-col gap-2 md:w-[35rem] md:pl-[6rem] md:px-0 px-[2rem] md:mx-[5rem]'>
           <h2 className='  text-black text-xl font-bold leading-10'>Get To know More!!</h2>
           <p className=' text-slate-500 text-lg leading-8'>
-            Hello everyone! I'm Divyam Singh, a passionate fresher in web development. Proficient in JavaScript, HTML, CSS (Tailwind), and modern frontend stack. Ready to dive into exciting projects!
+            Hello everyone! I'm Divyam Singh, a passionate frontend(react) developer at INDIAN ROBOTICS SOLUTION IRS. Proficient in JavaScript, HTML, CSS (Tailwind), and modern frontend stack. Ready to dive into exciting projects!
           </p>
           <p className='  text-slate-500 text-lg leading-8'>
             I'm skilled in JavaScript, proficient in ES6 essentials like arrow functions, destructuring, and promises. Experienced in DOM manipulation for creating dynamic web apps responsive to user interactions.
           </p>
           <p className='  text-slate-500 text-lg leading-8'>
-            Experienced in React, proficient in functional components, state management, and React Hooks for optimized component logic. Familiar with Redux for global state management, ensuring data consistency and simplifying debugging.
+            Experienced in React, proficient in functional components, state management, and React Hooks for optimized component logic. Familiar with Redux for global state management and fetching API's using RTK query, ensuring data consistency and simplifying debugging.
           </p>
         </div>
 
