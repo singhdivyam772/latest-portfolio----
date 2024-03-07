@@ -11,13 +11,13 @@ const Projects = () => {
       image: `https://ik.imagekit.io/x5uuebk4v/portfolio/3366845.jpg?updatedAt=1709554368135`,
       siteLink: 'https://singhdivyam772.github.io/Weather-App/'
     },
-    {
-      id: 2,
-      name: 'Ed-Tech',
-      description: `Welcome to Ed-tech, a React-based edtech platform designed to engage and educate users through interactive quizzes. With a user-friendly interface and a range of subjects to explore`,
-      image: `https://ik.imagekit.io/x5uuebk4v/portfolio/20944385.jpg?updatedAt=1709631859471`,
-      siteLink: 'https://singhdivyam772.github.io/edtech-project/',
-    },
+    // {
+    //   id: 2,
+    //   name: 'Ed-Tech',
+    //   description: `Welcome to Ed-tech, a React-based edtech platform designed to engage and educate users through interactive quizzes. With a user-friendly interface and a range of subjects to explore`,
+    //   image: `https://ik.imagekit.io/x5uuebk4v/portfolio/20944385.jpg?updatedAt=1709631859471`,
+    //   siteLink: 'https://singhdivyam772.github.io/edtech-project/',
+    // },
     {
       id: 3,
       name: 'DroneServiceCenter',
