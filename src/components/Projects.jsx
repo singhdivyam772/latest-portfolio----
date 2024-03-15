@@ -4,7 +4,7 @@ const Projects = () => {
 
   const projects = [
     {
-      id: 1,
+      id: 4,
       name: 'Weather App',
       description: `Developed a weather application using JavaScript that displays real-time weather data. Utilized a third- 
       party API to fetch weather information based on user input.`,
@@ -29,14 +29,14 @@ const Projects = () => {
       siteLink: 'https://www.droneservicecenter.in/'
     },
     {
-      id: 4,
+      id: 2,
       name: 'Digital library',
       description: `Redesigned and developed Drone Service Center's website UI using React.js and Vanilla CSS. 
       Implemented responsive design for multi-device compatibility. Refactored with Next.js and Tailwind CSS for 
       improved performance. Collaborated with design team for mockup translation into visually appealing UI 
       components. `,
       image: `https://ik.imagekit.io/x5uuebk4v/Digital-Library/2143985.jpg?updatedAt=1709649193098`,
-      siteLink: 'https://super-lebkuchen-8ea5ac.netlify.app/'
+      siteLink: 'https://divyam-library.netlify.app/'
     },
 ]
   return (
