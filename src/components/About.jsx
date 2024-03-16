@@ -54,9 +54,30 @@ const About = () => {
       height: 4
     },
     {
-      id: 7,
+      id: 8,
       image: 'https://ik.imagekit.io/x5uuebk4v/portfolio/Github.svg?updatedAt=1709531510881',
       name: 'git',
+      width: 4,
+      height: 4
+    },
+    {
+      id: 9,
+      image: 'https://miro.medium.com/v2/resize:fit:900/1*TY9uBBO9leUbRtlXmQBiug.png',
+      name: 'Nodejs',
+      width: 4,
+      height: 4
+    },
+    {
+      id: 9,
+      image: 'https://1.bp.blogspot.com/-jkSmywQ57sA/Wer3KKSqgaI/AAAAAAAACc4/07TexMsBBI4v7WlVKo76YvxM3TvrMxIdwCLcBGAs/s640/express.js.png',
+      name: 'expressjs',
+      width: 4,
+      height: 4
+    },
+    {
+      id: 9,
+      image: 'https://thesmartinvestor.com.sg/wp-content/uploads/2021/07/MongoDB_Logo.jpg',
+      name: 'mongodb',
       width: 4,
       height: 4
     }
@@ -78,13 +99,23 @@ const About = () => {
         <div className=' flex flex-col gap-2 md:w-[35rem] md:pl-[6rem] md:px-0 px-[2rem] md:mx-[5rem]'>
           <h2 className='  text-black text-xl font-bold leading-10'>Get To know More!!</h2>
           <p className=' text-slate-500 text-lg leading-8'>
-            Hello everyone! I'm Divyam Singh, a passionate frontend(react) developer at INDIAN ROBOTICS SOLUTION IRS. Proficient in JavaScript, HTML, CSS (Tailwind), and modern frontend stack. Ready to dive into exciting projects!
+          Hello everyone! I'm Divyam Singh, a MERN Stack Developer at INDIAN ROBOTICS SOLUTION (IRS). With expertise in 
+          JavaScript, HTML, CSS (including Tailwind CSS), and React for frontend development, I specialize in crafting modern 
+          and responsive user interfaces. On the backend, I excel in Node.js, 
+          Express.js, and MongoDB, ensuring efficient data management and robust server-side logic. Eager to tackle projects!
+          </p>
+         
+          <p className='  text-slate-500 text-lg leading-8'>
+          Proficient in React with expertise in functional components, state management, and React Hooks for optimized logic. 
+          Experienced in Redux for global state management and RTK query for API fetching, ensuring data consistency.
+           Skilled in JavaScript, including ES6 essentials, for seamless DOM manipulation in dynamic web applications.
           </p>
           <p className='  text-slate-500 text-lg leading-8'>
-            I'm skilled in JavaScript, proficient in ES6 essentials like arrow functions, destructuring, and promises. Experienced in DOM manipulation for creating dynamic web apps responsive to user interactions.
-          </p>
-          <p className='  text-slate-500 text-lg leading-8'>
-            Experienced in React, proficient in functional components, state management, and React Hooks for optimized component logic. Familiar with Redux for global state management and fetching API's using RTK query, ensuring data consistency and simplifying debugging.
+            Proficient in Node.js, Express, and MongoDB, I specialize in building robust backend systems. Leveraging my expertise, 
+            I ensure efficient data management, create scalable APIs, and ensure robust security with authentication, 
+            authorization, and 
+            validation mechanisms. My proficiency in these technologies enables the development of high-performance web 
+            applications.
           </p>
         </div>
 

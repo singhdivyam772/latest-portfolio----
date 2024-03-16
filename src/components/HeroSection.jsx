@@ -14,7 +14,7 @@ const HeroSection = (props) => {
             hey, i'am a mern stack developer
           </h2>
           <h5 className=' md:px-10 px-6 py-5 leading-89 font-normal text-center text-2xl md:w-[70vw] text-slate-800'>
-          I'm a Frontend(React) Developer and here is my portfolio website. Here you'll learn about myself as a frontend(React) developer.
+          I'm a MernStack Developer and here is my portfolio website. Here you'll learn about myself as a MernStack Developer.
           </h5>
           <button 
           onClick={scrollToProject}

@@ -3,14 +3,7 @@ import { Link } from 'react-router-dom'
 const Projects = () => {
 
   const projects = [
-    {
-      id: 4,
-      name: 'Weather App',
-      description: `Developed a weather application using JavaScript that displays real-time weather data. Utilized a third- 
-      party API to fetch weather information based on user input.`,
-      image: `https://ik.imagekit.io/x5uuebk4v/portfolio/3366845.jpg?updatedAt=1709554368135`,
-      siteLink: 'https://singhdivyam772.github.io/Weather-App/'
-    },
+    
     // {
     //   id: 2,
     //   name: 'Ed-Tech',
@@ -31,13 +24,20 @@ const Projects = () => {
     {
       id: 2,
       name: 'Digital library',
-      description: `Redesigned and developed Drone Service Center's website UI using React.js and Vanilla CSS. 
-      Implemented responsive design for multi-device compatibility. Refactored with Next.js and Tailwind CSS for 
-      improved performance. Collaborated with design team for mockup translation into visually appealing UI 
-      components. `,
+      description: `I have developed a digital library that provides free eBooks for reading and downloading. The library is 
+      built using React.js and utilizes a free API for book collection. Tailwind CSS is employed for styling, 
+      ensuring an attractive and user-friendly interface.  `,
       image: `https://ik.imagekit.io/x5uuebk4v/Digital-Library/2143985.jpg?updatedAt=1709649193098`,
       siteLink: 'https://divyam-library.netlify.app/'
     },
+    {
+      id: 4,
+      name: 'Weather App',
+      description: `Developed a weather application using JavaScript that displays real-time weather data. Utilized a third- 
+      party API to fetch weather information based on user input.`,
+      image: `https://ik.imagekit.io/x5uuebk4v/portfolio/3366845.jpg?updatedAt=1709554368135`,
+      siteLink: 'https://singhdivyam772.github.io/Weather-App/'
+    }
 ]
   return (
     <div className=' flex justify-center items-center flex-col w-[100vw] min-h-[40rem] bg-slate-100 md:mt-0 py-6'>
