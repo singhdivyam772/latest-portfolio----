@@ -4,15 +4,8 @@ const Projects = () => {
 
   const projects = [
     
-    // {
-    //   id: 2,
-    //   name: 'Ed-Tech',
-    //   description: `Welcome to Ed-tech, a React-based edtech platform designed to engage and educate users through interactive quizzes. With a user-friendly interface and a range of subjects to explore`,
-    //   image: `https://ik.imagekit.io/x5uuebk4v/portfolio/20944385.jpg?updatedAt=1709631859471`,
-    //   siteLink: 'https://singhdivyam772.github.io/edtech-project/',
-    // },
     {
-      id: 3,
+      id: 1,
       name: 'DroneServiceCenter',
       description: `Redesigned and developed Drone Service Center's website UI using React.js and Vanilla CSS. 
       Implemented responsive design for multi-device compatibility. Refactored with Next.js and Tailwind CSS for 
@@ -21,6 +14,7 @@ const Projects = () => {
       image: `https://ik.imagekit.io/m4aja7hui/DSC/Image/images/icon/Logo_fjopbe.png?updatedAt=1699590305441`,
       siteLink: 'https://www.droneservicecenter.in/'
     },
+    
     {
       id: 2,
       name: 'Digital library',
@@ -30,14 +24,27 @@ const Projects = () => {
       image: `https://ik.imagekit.io/x5uuebk4v/Digital-Library/2143985.jpg?updatedAt=1709649193098`,
       siteLink: 'https://divyam-library.netlify.app/'
     },
+    
+    {
+      id: 3,
+      name: 'Jewelry Store',
+      description: `This is an e-commerce website built using the MERN stack (MongoDB, Express.js, React, Node.js).
+       For handling payments, Razorpay integration has been
+       implemented. Redux Toolkit is utilized for state management, and for fetching API data, RTK Query is employed.
+       `,
+      image: `https://res.cloudinary.com/drj0uehgx/image/upload/v1714731108/portfolioi/White_And_Black_Modern_Abstract_Beauty_Logo_cmuh4m.png`,
+      siteLink: 'https://jewelery-store.netlify.app/'
+    },
+
     {
       id: 4,
-      name: 'Jewelry Store',
+      name: 'Employee Attendance Management (CRM)',
       description: `Developed a weather application using JavaScript that displays real-time weather data. Utilized a third- 
       party API to fetch weather information based on user input.`,
-      image: `https://res.cloudinary.com/drj0uehgx/image/upload/v1714731108/portfolioi/White_And_Black_Modern_Abstract_Beauty_Logo_cmuh4m.png`,
+      image: `https://www.hrfuture.net/wp-content/uploads/elementor/thumbs/David-Shala-pg5dcfyyph7j627nueznvxqdjdxtvsipaszgjfniiw.png`,
       siteLink: 'https://crown-nine.netlify.app/'
-    }
+    },
+    
 ]
   return (
     <div className=' flex justify-center items-center flex-col w-[100vw] min-h-[40rem] bg-slate-100 md:mt-0 py-6'>
@@ -53,11 +60,11 @@ const Projects = () => {
       { projects?.map((data)=>(
          <div 
          key={data?.id}
-         className=' flex md:flex-nowrap flex-wrap justify-between min-h-[20rem] w-[100vw] pt-16 '>
+         className=' flex md:flex-nowrap flex-wrap justify-around min-h-[20rem] w-[100vw] pt-16 '>
          {/* left */}
          <div className=' flex justify-center items-center flex-col md:mt-[-3.3rem] pl-[3rem] md:ml-[5rem]'>
            <img src={data?.image}
-             className=' md:w-[30rem] md:h-[30rem] w-[20rem] h-[20rem]'
+             className=' md:w-[37rem] md:h-[23rem] w-[20rem] h-[20rem]'
              loading='lazy' />
          </div>
  
