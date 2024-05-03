@@ -32,11 +32,11 @@ const Projects = () => {
     },
     {
       id: 4,
-      name: 'Weather App',
+      name: 'Jewelry Store',
       description: `Developed a weather application using JavaScript that displays real-time weather data. Utilized a third- 
       party API to fetch weather information based on user input.`,
-      image: `https://ik.imagekit.io/x5uuebk4v/portfolio/3366845.jpg?updatedAt=1709554368135`,
-      siteLink: 'https://singhdivyam772.github.io/Weather-App/'
+      image: `https://res.cloudinary.com/drj0uehgx/image/upload/v1714731108/portfolioi/White_And_Black_Modern_Abstract_Beauty_Logo_cmuh4m.png`,
+      siteLink: 'https://crown-nine.netlify.app/'
     }
 ]
   return (
