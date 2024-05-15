@@ -16,16 +16,6 @@ const Projects = () => {
     },
     
     {
-      id: 2,
-      name: 'Digital library',
-      description: `I have developed a digital library that provides free eBooks for reading and downloading. The library is 
-      built using React.js and utilizes a free API for book collection. Tailwind CSS is employed for styling, 
-      ensuring an attractive and user-friendly interface.  `,
-      image: `https://ik.imagekit.io/x5uuebk4v/Digital-Library/2143985.jpg?updatedAt=1709649193098`,
-      siteLink: 'https://divyam-library.netlify.app/'
-    },
-    
-    {
       id: 3,
       name: 'Jewelry Store',
       description: `This is an e-commerce website built using the MERN stack (MongoDB, Express.js, React, Node.js).
@@ -35,7 +25,15 @@ const Projects = () => {
       image: `https://res.cloudinary.com/drj0uehgx/image/upload/v1714731108/portfolioi/White_And_Black_Modern_Abstract_Beauty_Logo_cmuh4m.png`,
       siteLink: 'https://jewelery-store.netlify.app/'
     },
-
+    {
+      id: 2,
+      name: 'Digital library',
+      description: `I have developed a digital library that provides free eBooks for reading and downloading. The library is 
+      built using React.js and utilizes a free API for book collection. Tailwind CSS is employed for styling, 
+      ensuring an attractive and user-friendly interface.  `,
+      image: `https://ik.imagekit.io/x5uuebk4v/Digital-Library/2143985.jpg?updatedAt=1709649193098`,
+      siteLink: 'https://divyam-library.netlify.app/'
+    },
     {
       id: 4,
       name: 'Employee Attendance Management (CRM)',
